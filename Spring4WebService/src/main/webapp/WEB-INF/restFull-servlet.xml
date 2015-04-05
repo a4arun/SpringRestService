@@ -33,6 +33,7 @@
 </bean>
 
 
+
 <bean id="xmlConverter" class="org.springframework.http.converter.xml.MarshallingHttpMessageConverter">
 			   <property name="marshaller" ref="jaxb2Marshaller" />
 	  		  <property name="unmarshaller" ref="jaxb2Marshaller" />
